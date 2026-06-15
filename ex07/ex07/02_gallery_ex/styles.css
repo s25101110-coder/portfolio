@@ -32,14 +32,29 @@ table {
 body {
 	font-size: 62.5%;
 }
-
 .content {
-	margin: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
 	border: 1px dashed #999;
+	border-right: none;
 	border-bottom: none;
 }
+p.caption {
+	font-size: 1.3em;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+.gallery .figure p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: normal;
+}
+
+
 h1 {
 	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
 	border-bottom: 1px dashed #999;
 	padding: 5px 0 5px 8px;
 	color: #14556b;
@@ -53,30 +68,8 @@ p {
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #666666;
-	margin: 0px;
+	margin-left: 0px;
 	padding-left: 8px;
 	border-top: 1px dashed #999;
 	clear: both;
 }
-/* add your styles below here */
-figure {
-    float: right;
-    width: 222px;
-    margin: 15px 10px 5px 10px;
-}
-figure img {
-    border: 1px solid #666;
-    background-color: #CCC;
-    padding: 10px;
-}
-figcaption {
-    font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
-    color: #333;
-    text-align: center;
-    background-image: linear-gradient(to bottom, #e6f3ff, white);
-    border: 1px dashed #666;
-    padding: 5px;
-}
-
-
-
